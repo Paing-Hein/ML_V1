@@ -1,0 +1,28 @@
+Assignment 1: OnevsAll Algorithm
+click top
+•
+Feb 28
+100 points
+Due Mar 2, 12:29 PM
+
+sample1. Download 50 images for each of three different categories with some possible confusions.
+e.g. pineapple, jackfruit and durian
+       different kinds of mangoes
+       celebrities with similar race and face
+       human, humanoid robot, cyborg
+But the examples are shown just for you to have an idea of the categories. You can work on any categorical topics or labels you like. 
+Attached, code for batch downloading and conversion of file type has been given.
+
+2. Resize the images to reasonable size (e.g. 50 by 50 pixels). You will get three matrices presenting R,G, and B colors in the image. You may take features for full color or the mean values and standard deviations as you deem appropriate.
+
+3. Prepare the dataset, i.e., the feature matrix and the target. The target may be labelled as you desire, e.g. 0 for pineapple, 1 for jackfruit and 2 for durian. 
+
+4. Split the data into training and test dataset. For this, you may use sklearn module. 
+
+5. Train the model on the training dataset using OnevsAll algorithm and report the training accuracy and the confusion matrix. 
+
+6. Predict the classes using the test dataset and report the test accuracy and the confusion matrix. 
+
+7. Comment on your finding by discussing the effect of feature normalization, hyperparameter tuning (i.e., adjusting the learning rate and the regularization parameter) on the accuracy of the model.
+
+You can submit either Jupyter notebook or Python script.
